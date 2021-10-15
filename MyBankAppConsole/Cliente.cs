@@ -8,9 +8,9 @@ namespace MyBankAppConsole
 {
     class Cliente
     {
-        public string nome;
-        public string cpf;
-        public string prof;
+        private string nome;
+        private string cpf;
+        private string prof;
 
         public string getNome()
         {
